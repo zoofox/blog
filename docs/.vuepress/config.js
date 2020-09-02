@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Vuepress blog',
 	themeConfig: {
 		// 你的GitHub仓库，请正确填写
-		repo: 'https://github.com/xxxxxxx/blog-demo',
+		repo: 'https://github.com/zoofox/blog',
 		// 自定义仓库链接文字。
 		repoLabel: 'My GitHub',
 		nav: [{
@@ -15,9 +15,9 @@ module.exports = {
 			link: '/blog/index.md'
 		}],
 		sidebar: [{
-			title: "Index",
+			title: "首页",
 			collapsable: false,
-			path: '/blog/'
+			path: '/'
 		},{
 			title: "Vue",
 			collapsable: false,
